@@ -512,6 +512,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .footer {
     text-align: center;
+    align-items: first baseline;
     padding: var(--gutter-medium) 0 var(--gutter-normal);
 }
 
@@ -527,7 +528,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .footer__social-image {
-    height: 4rem;
+    height: 6rem;
 }
 
 .footer__github-buttons {
@@ -541,8 +542,11 @@ body:not(.user-is-tabbing) a:focus {
     transform: translateY(3px);
 }
 
-.footer__social-image{
+.footer__image {
     margin-left: auto;
+    margin-bottom: 0%;
+    width: 150px;
+    height: 10rem;
 }
 
 @media(max-width: 500px) {
